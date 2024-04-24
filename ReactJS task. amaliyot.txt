@@ -1,0 +1,67 @@
+# Junior Task 
+
+### **Vazifa tavsifi**
+
+**Maqsad:** [TMDB (The Movie Database)](https://developer.themoviedb.org/reference/intro/getting-started) kabi ommaviy API-dan foydalangan holda filmlar haqida ma'lumotni ko'rish ilovasini yaratish.
+
+**Texnologik stack:**
+
+- **Vite.js** — loyihani tez sozlash uchun.
+- **React Query** — asinxron so'rovlar va ma'lumotlarni keshlashni boshqarish uchun.
+- **Zustand** — ilova holatini boshqarish uchun.
+- **Ant Design** — foydalanuvchi interfeysi dizayni uchun.
+
+**Asosiy funksiyalar:**
+
+1. **Filmlar ro'yxati:** Foydalanuvchi bosh sahifada mashhur filmlar ro'yxatini ko'radi.
+2. **Filmlarni qidirish:** Foydalanuvchi nomi bo'yicha filmlarni qidira oladi.
+3. **Film haqida to'liq ma'lumot:** Film ustiga bosganda, to'liq ma'lumot (tavsif, chiqarilgan sana, reyting va h.k.) sahifasi ochiladi.
+4. **Filmga fikrlar:** Agar mavjud bo'lsa, foydalanuvchilar filmga qoldirgan fikrlarini ko'rsatish.
+
+### **Vazifani bajarish bosqichlari**
+
+1. **Vite.js bilan loyihani sozlash.** Kerakli kutubxonalarni (React, Ant Design, React Query, Zustand) o'rnatish.
+2. **Ant Design bilan integratsiya.** Ant Design komponentlaridan foydalanib foydalanuvchi interfeysini yaratish (tugmalar, film kartochkalari, qidiruv formasi va h.k.).
+3. **React Query orqali API bilan ishlash.** Filmlar ro'yxati, to'liq ma'lumot va fikrlar olish uchun ommaviy API bilan so'rovlar sozlash.
+4. **Zustand yordamida holatni boshqarish.** Qidiruv va tanlangan film holatini boshqarish uchun global holat yaratish.
+5. **Marshrutlash.** Sahifalar o'rtasida navigatsiya uchun React Router'ni sozlash.
+
+### **Qo'shimcha talablar**
+
+- Kod toza va yaxshi tashkil etilgan bo'lishi kerak.
+- Ilova turli qurilmalarda to'g'ri ko'rsatilishi va javob berishi kerak.
+- Stilizatsiya uchun CSS-ning zamonaviy imkoniyatlaridan (Flexbox, Grid) foydalanish.
+
+---
+
+### **Описание задания** 
+
+**Цель:** Создать приложение для просмотра информации о фильмах с использованием публичного API, например, [TMDB (The Movie Database)](https://developer.themoviedb.org/reference/intro/getting-started).
+
+**Технологический стек:**
+
+- **Vite.js** — для быстрой настройки проекта.
+- **React Query** — для управления асинхронными запросами и кэширования данных.
+- **Zustand** — для управления состоянием приложения.
+- **Ant Design** — для дизайна интерфейса пользователя.
+
+**Основные функции:**
+
+1. **Список фильмов:** Пользователь видит список популярных фильмов на главной странице.
+2. **Поиск фильмов:** Пользователь может искать фильмы по названию.
+3. **Детальная информация о фильме:** При клике на фильм открывается страница с детальной информацией (описание, дата выхода, рейтинг, и т.д.).
+4. **Отзывы на фильмы:** Показать отзывы пользователей на фильмы, если таковые имеются.
+
+### **Этапы выполнения задания**
+
+1. **Настройка проекта с Vite.js.** Установить необходимые библиотеки (React, Ant Design, React Query, Zustand).
+2. **Интеграция с Ant Design.** Использовать компоненты Ant Design для создания интерфейса (кнопки, карточки фильмов, формы поиска и т.д.).
+3. **Работа с API через React Query.** Настроить запросы к публичному API для получения списка фильмов, детальной информации и отзывов.
+4. **Управление состоянием с помощью Zustand.** Создать глобальное состояние для управления состоянием поиска и выбранного фильма.
+5. **Маршрутизация.** Настроить React Router для навигации между страницами приложения.
+
+### **Дополнительные требования**
+
+- Код должен быть чистым и хорошо организованным.
+- Приложение должно быть отзывчивым и корректно отображаться на различных устройствах.
+- Использовать современные возможности CSS для стилизации (Flexbox, Grid).

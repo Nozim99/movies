@@ -1,0 +1,81 @@
+.main {
+  padding: 30px 0 100px;
+}
+
+.section {
+  display: flex;
+  column-gap: 30px;
+}
+
+.year {
+  /* background-color: rgb(255, 145, 0); */
+  color: #5e5e5e;
+  border: 1px solid #a1a1a1;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.infoBox {
+  margin-top: 20px;
+}
+
+.countryBox {
+  display: flex;
+  margin-top: 15px;
+  column-gap: 8px;
+}
+
+.overview {
+  margin: 10px 0 2px;
+}
+
+.budget {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.userBox {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.ratingBox {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.rating {
+  color: #ff4500;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.reviewBox {
+  margin-top: 30px;
+}
+
+.commentTitle {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 650px) {
+  .section {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+}

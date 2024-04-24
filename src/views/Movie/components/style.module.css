@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  text-decoration: underline;
+  color: rgb(17, 0, 255);
+  border: 0;
+  background-color: transparent;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #0000c2;
+}
+
+.commentBox {
+  margin-top: 5px;
+}

@@ -1,0 +1,19 @@
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.title {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 2rem;
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
